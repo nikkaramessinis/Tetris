@@ -1,0 +1,2 @@
+nickmake: ../main.cpp ../draw.hpp
+	g++ -o outpoutsa ../main.cpp -lsfml-graphics -lsfml-window -lsfml-system

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nick/Tetris/draw.hpp
+SFML/Graphics.hpp
+-
+iostream
+-
+forward_decls.hpp
+/home/nick/Tetris/forward_decls.hpp
+
+/home/nick/Tetris/forward_decls.hpp
+
+/home/nick/Tetris/main.cpp
+SFML/Graphics.hpp
+-
+time.h
+-
+forward_decls.hpp
+/home/nick/Tetris/forward_decls.hpp
+draw.hpp
+/home/nick/Tetris/draw.hpp
+
